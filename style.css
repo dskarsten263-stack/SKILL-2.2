@@ -3,10 +3,11 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f7f7f7;
+    text-align: center;
 }
 
 header {
-    background-color: #333;
+    background-color: #9fdaff;
     color: white;
     padding: 20px;
     text-align: center;
@@ -24,7 +25,7 @@ main {
 }
 
 footer {
-    background-color: #333;
+    background-color: #9fdaff;
     color: white;
     text-align: center;
     padding: 10px;
