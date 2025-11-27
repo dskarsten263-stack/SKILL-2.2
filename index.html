@@ -8,23 +8,49 @@
 </head>
 <body>
     <header>
-        <h1>Welkom op onze Team Website</h1>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="team.html">Team</a>
-            <button id="theme-toggle" class="theme-toggle" aria-pressed="false">Dark mode</button>
-        </nav>
+        <div class="site-wrap header-inner">
+            <div class="brand">
+                <span class="logo" aria-hidden="true"></span>
+                <h1>Welkom op onze Team Website</h1>
+            </div>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="team.html">Team</a>
+                <button id="theme-toggle" class="theme-toggle" aria-pressed="false">Dark mode</button>
+            </nav>
+        </div>
     </header>
 
     <main>
-        <section>
-            <h2>Project Introductie</h2>
-            <p>Welkom! Dit is de gemeenschappelijke website van ons teamproject.</p>
-        </section>
+        <div class="site-wrap">
+            <section class="hero">
+                <div class="content">
+                    <h2>Project.</h2>
+                    <p>Welkom! Leuk dat je er bent! Dit is de gezamenlijke website van ons teamproject. Hier gooien we alles bij elkaar: ideeën, notities, foto’s, takenlijsten, updates — noem maar op. Het is onze centrale plek om samen te werken én om anderen te laten zien waar we mee bezig zijn. Blijf vooral even hangen, want er valt hier genoeg te ontdekken.</p>
+                </div>
+            </section>
+
+            <div class="grid">
+                <div class="card">
+                    <h3>Samenwerking</h3>
+                    <p>Alle taken, notities en updates van ons project zijn hier centraal verzameld — iedereen kan bijdragen.</p>
+                </div>
+                <div class="card">
+                    <h3>Ontwerpen</h3>
+                    <p>We gebruiken eenvoudige, toegankelijke stijlen zodat de site prettig werkt op desktop en mobiel.</p>
+                </div>
+                <div class="card">
+                    <h3>Volgende stappen</h3>
+                    <p>Voeg je eigen teampagina toe of maak een pull request met verbeteringen. Veel succes!</p>
+                </div>
+            </div>
+        </div>
     </main>
 
     <footer>
-        <p>&copy; 2025 Team Website Project</p>
+        <div class="site-wrap">
+            <p>&copy; 2025 Team Website Project van Daimien, Tygo, Helena en Theo</p>
+        </div>
     </footer>
 
     <script src="main.js" defer></script>

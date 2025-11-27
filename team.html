@@ -8,31 +8,39 @@
 </head>
 <body>
     <header>
-        <h1>Ons Team</h1>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="team.html">Team</a>
-            <button id="theme-toggle" class="theme-toggle" aria-pressed="false">Dark mode</button>
-        </nav>
+        <div class="site-wrap header-inner">
+            <div class="brand">
+                <span class="logo" aria-hidden="true"></span>
+                <h1>Ons Team</h1>
+            </div>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="team.html">Team</a>
+                <button id="theme-toggle" class="theme-toggle" aria-pressed="false">Dark mode</button>
+            </nav>
+        </div>
     </header>
 
     <main>
-        <section>
-            <h2>Teamleden</h2>
-            <p>Hier komen de teamleden te staan, toegevoegd door studenten via pull requests.</p>
-        </section>
-         
-        <section><a href="team\Daimien.html">Daimien</a></section>
-       
-        <section><a href="team\Helena.html">Helena</a></section>
-        
-        <section><a href="team\Tygo.html">Tygo</a></section>
-        
-        <section><a href="team\Theo.html">Theo</a></section>
+        <div class="site-wrap">
+            <section>
+                <h2>Teamleden</h2>
+                <p>Hier komen de teamleden te staan, toegevoegd door studenten via pull requests.</p>
+            </section>
+
+            <section class="member-list">
+                <a href="team/Daimien.html"><div class="member-card">Daimien</div></a>
+                <a href="team/Helena.html"><div class="member-card">Helena</div></a>
+                <a href="team/Tygo.html"><div class="member-card">Tygo</div></a>
+                <a href="team/Theo.html"><div class="member-card">Theo</div></a>
+            </section>
+        </div>
     </main>
 
     <footer>
-        <p>&copy; 2025 Team Website Project</p>
+        <div class="site-wrap">
+            <p>&copy; 2025 Team Website Project</p>
+        </div>
     </footer>
 
     <script src="main.js" defer></script>
